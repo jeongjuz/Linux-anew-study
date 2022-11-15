@@ -1,8 +1,13 @@
-#anew
+*.ftpconfig
+# anew
 
+#environment files
+.env
+
+# for nodejs node_moudles
 node/**/node_modules 
-
-#mongodb backup /  json
+node/**/package-lock.json
+#for mongodb
 mongodb/**/*.json
 mongodb/backup
 
